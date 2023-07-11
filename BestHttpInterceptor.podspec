@@ -20,7 +20,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+  # Test Server
+  s.host             = '139.196.124.241'
+  s.user             = 'test'
+  s.password           = '1qaz@WSX2022'
   s.homepage         = 'https://github.com/zColdWater/HTTPInterceptor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
