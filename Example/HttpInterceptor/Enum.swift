@@ -18,7 +18,7 @@ enum DemoSectionType: Int {
         case .mock:
             return "Mocker"
         }
-    }
+    } 
 }
 
 enum DemoRowType: Int {

@@ -18,7 +18,7 @@ extension Tests: HttpMockerDelegate {
 extension Tests: HttpInterceptDelegate {
     func httpRequest(request: URLRequest) -> URLRequest {
         return request
-    }
+    } 
     func httpRequest(response: URLResponse) -> URLResponse {
         return response
     }
